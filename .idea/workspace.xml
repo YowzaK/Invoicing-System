@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c91db4b-ffed-40a9-a775-58c21cdbcfec" name="Changes" comment="Added Product Class">
-      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
+    <list default="true" id="9c91db4b-ffed-40a9-a775-58c21cdbcfec" name="Changes" comment="Added variables to product Class&#10;Added Customer Class and its Variables">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_49.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Invoice_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Invoice_System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +42,29 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Gitrepos/Invoice-System",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/yowza/Downloads/mysql-connector-java-5.1.49.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Invoice_System" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +74,11 @@
       <option name="presentableId" value="Default" />
       <updated>1656007795885</updated>
       <workItem from="1656007798568" duration="2000" />
-      <workItem from="1656008420515" duration="863000" />
+      <workItem from="1656008420515" duration="1095000" />
+      <workItem from="1656082658869" duration="1942000" />
+      <workItem from="1656168779157" duration="204000" />
+      <workItem from="1656223893225" duration="622000" />
+      <workItem from="1656228045405" duration="3911000" />
     </task>
     <task id="LOCAL-00001" summary="Added Product Class">
       <created>1656008737768</created>
@@ -74,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656008784905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added variables to product Class&#10;Added Customer Class and its Variables">
+      <created>1656009517730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656009517730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Product Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Product Class" />
+    <MESSAGE value="Added variables to product Class&#10;Added Customer Class and its Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added variables to product Class&#10;Added Customer Class and its Variables" />
   </component>
 </project>
