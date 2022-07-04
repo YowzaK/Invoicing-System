@@ -16,7 +16,6 @@ public class Customer {
         this.address = address;
         dateOfBirth = dob;
         this.gender = gender;
-
     }
 
 }

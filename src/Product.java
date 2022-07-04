@@ -64,5 +64,8 @@ public class Product {
         return quantity;
     }
 
+    public void display(){
+        System.out.println("| "+productId+" | "+productName+" | "+description+" | "+purchasePrice+" | "+sellingPrice+" | "+quantity+" | ");
+    }
 
 }
