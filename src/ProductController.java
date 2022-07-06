@@ -12,7 +12,6 @@ public class ProductController {
         stmt.executeUpdate("INSERT INTO product (ProductID,ProductName,Description,PurchasePrice,SellingPrice,Quantity) VALUES ("+x.getProductId()+",'"+x.getProductName()+"','"+x.getDescription()+"','"+x.getPurchasePrice()+"','"+x.getSellingPrice()+"','"+x.getQuantity()+"')");
     }
 
-
     public static void searchProduct(Product x)throws ClassNotFoundException,SQLException{
         Connection con;
         con = DatabaseConnector.getConnection();
@@ -56,13 +55,4 @@ public class ProductController {
             x.display();
         }
     }
-
-
-
-
-
-
-
-
-
 }
