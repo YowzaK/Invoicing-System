@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c91db4b-ffed-40a9-a775-58c21cdbcfec" name="Changes" comment="completed customer database management facilities">
+    <list default="true" id="9c91db4b-ffed-40a9-a775-58c21cdbcfec" name="Changes" comment="Completes Invoice handling and finished project.">
+      <change afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InvoiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +87,10 @@
       <workItem from="1656689776750" duration="1622000" />
       <workItem from="1656949320025" duration="10462000" />
       <workItem from="1657094732235" duration="4283000" />
-      <workItem from="1657114228972" duration="6603000" />
+      <workItem from="1657114228972" duration="12512000" />
+      <workItem from="1657169725302" duration="9427000" />
+      <workItem from="1657200795338" duration="10294000" />
+      <workItem from="1657217221454" duration="4375000" />
     </task>
     <task id="LOCAL-00001" summary="Added Product Class">
       <created>1656008737768</created>
@@ -129,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656962971190</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed customer database management facilities">
+      <created>1657125614005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657125614005</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +164,17 @@
     <MESSAGE value="added controller for product class and added separate class for SQL connection" />
     <MESSAGE value="Completed Product databaseManagement. Added new features like adding, removing , searching and displaying products from database" />
     <MESSAGE value="completed customer database management facilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed customer database management facilities" />
+    <MESSAGE value="Completes Invoice handling and finished project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completes Invoice handling and finished project." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

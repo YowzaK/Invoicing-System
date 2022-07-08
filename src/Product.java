@@ -13,7 +13,7 @@ public class Product {
         this.quantity = quantity;
         purchasePrice = pPrice;
         sellingPrice =sPrice;
-    }
+    }//overloaded constructor
 
     //setter and getters for the private variables
     public void setProductId(int x){
