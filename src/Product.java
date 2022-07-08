@@ -1,4 +1,4 @@
-public class Product {
+public class Product extends ProductController {
     private int productId;
     private String productName;
     private String description;

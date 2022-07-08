@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Invoice {
+public class Invoice extends InvoiceController {
     private int invoiceNumber;
     private String date;
     private double total;

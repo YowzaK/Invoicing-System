@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class InvoiceController {
+public class InvoiceController extends DatabaseConnector {
 
     public static void storeInvoice(Invoice z) throws SQLException, ClassNotFoundException {
         Connection con;

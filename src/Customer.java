@@ -1,4 +1,4 @@
-public class Customer {
+public class Customer extends CustomerController {
     private int customerId;
     private String customerName;
     private String email;

@@ -3,7 +3,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class CustomerController {
+public class CustomerController extends DatabaseConnector {
     public CustomerController(){};
 
     public static void addCustomer(Customer y) throws SQLException, ClassNotFoundException {

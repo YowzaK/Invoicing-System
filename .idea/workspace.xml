@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c91db4b-ffed-40a9-a775-58c21cdbcfec" name="Changes" comment="Completes Invoice handling and finished project.">
-      <change afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InvoiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvoiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yowza/Downloads/mysql-connector-java-5.1.49.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Gitrepos/Invoice-System/src",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -90,7 +89,9 @@
       <workItem from="1657114228972" duration="12512000" />
       <workItem from="1657169725302" duration="9427000" />
       <workItem from="1657200795338" duration="10294000" />
-      <workItem from="1657217221454" duration="4375000" />
+      <workItem from="1657217221454" duration="5889000" />
+      <workItem from="1657259704591" duration="487000" />
+      <workItem from="1657260230979" duration="2547000" />
     </task>
     <task id="LOCAL-00001" summary="Added Product Class">
       <created>1656008737768</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657125614005</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completes Invoice handling and finished project.">
+      <created>1657258118907</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657258118907</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,5 +184,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
