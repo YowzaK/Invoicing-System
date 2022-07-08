@@ -422,17 +422,15 @@ public class Main {
             int pId = input.nextInt();
             System.out.print(" Quantity: ");
             int qt =input.nextInt();
-
             System.out.print(" Discount %: ");
             double ds =input.nextDouble();
-
             product.setProductId(pId);
             ProductController.searchProduct(product);
 
             if (qt > product.getQuantity()){
                 System.out.println("Stock not available on " + product.getProductName());
             }else {
-                System.out.println("Stocks available");
+                System.out.println("Stocks available on " + product.getProductName());
                 discounts.add(ds);
                 productNames.add(product.getProductName());
                 quantity.add(qt);

@@ -18,13 +18,17 @@ public class InvoiceController extends DatabaseConnector {
         ArrayList<Double> discountedProductValue = z.getDiscountedProductValue();
         ArrayList<Double> unitPrice = z.getUnitPrice();
 
+        for(int i=0; i < productNames.size(); i++){
+            System.out.println(productNames.get(i));
+        }
+
         String products = "";//product names
         String unitPrices = "";//unit price of each product
         String discount = "";// calculates discount value of product
         String quant = "";// stores the quantities of products bought
 
 
-        for (int i=1; i<productNames.size(); i++){
+        for (int i=0; i<productNames.size(); i++){
             products = productNames.get(i) +","+ products;
             unitPrices =  unitPrice.get(i).toString()+","+ unitPrices;
             discount = discountedProductValue.get(i).toString()+ "," + discount;
