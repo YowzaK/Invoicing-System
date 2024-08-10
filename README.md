@@ -7,7 +7,7 @@
 ###
 
 <div align="left">
-  <img height="150" src="![Java project screenshots](https://github.com/user-attachments/assets/883d641e-18ac-46ba-aa39-2fc734a3645a)"  />
+  <img height="150" src="https://github.com/user-attachments/assets/883d641e-18ac-46ba-aa39-2fc734a3645a"  />
 </div>
 
 ###
@@ -21,7 +21,7 @@
 ###
 
 <div align="left">
-  <img height="150" src="![2](https://github.com/user-attachments/assets/08a81a9e-5c4f-4a38-983d-93bd66f4df80)"  />
+  <img height="150" src="https://github.com/user-attachments/assets/08a81a9e-5c4f-4a38-983d-93bd66f4df80"  />
 </div>
 
 ###
@@ -37,7 +37,7 @@
 <br clear="both">
 
 <div align="left">
-  <img height="150" src="![3](https://github.com/user-attachments/assets/5a30d002-aa99-4876-823b-8769dc2dfe58)"  />
+  <img height="150" src="https://github.com/user-attachments/assets/5a30d002-aa99-4876-823b-8769dc2dfe58"  />
 </div>
 
 ###
@@ -51,7 +51,7 @@
 ###
 
 <div align="left">
-  <img height="150" src="![4](https://github.com/user-attachments/assets/dc2f47a0-3620-4088-aa92-cb9b597b30bb)"  />
+  <img height="150" src="https://github.com/user-attachments/assets/dc2f47a0-3620-4088-aa92-cb9b597b30bb"  />
 </div>
 
 ###
